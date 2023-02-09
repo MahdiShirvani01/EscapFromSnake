@@ -1,0 +1,1 @@
+/usr/bin/c++    -rdynamic CMakeFiles/app.dir/main.cpp.o CMakeFiles/app.dir/src/New_Game.cpp.o CMakeFiles/app.dir/src/User.cpp.o CMakeFiles/app.dir/src/Snake.cpp.o  -o app  -lsfml-window -lsfml-system -lsfml-graphics 

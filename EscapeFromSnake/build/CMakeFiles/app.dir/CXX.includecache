@@ -1,0 +1,46 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/mahdi/Desktop/EscapeFromSnake/include/New_Game.hpp
+SFML/Graphics.hpp
+-
+SFML/Graphics/Texture.hpp
+-
+SFML/System.hpp
+-
+SFML/Window.hpp
+-
+string
+-
+
+/home/mahdi/Desktop/EscapeFromSnake/include/Snake.hpp
+string
+-
+User.hpp
+/home/mahdi/Desktop/EscapeFromSnake/include/User.hpp
+New_Game.hpp
+/home/mahdi/Desktop/EscapeFromSnake/include/New_Game.hpp
+
+/home/mahdi/Desktop/EscapeFromSnake/include/User.hpp
+string
+-
+
+/home/mahdi/Desktop/EscapeFromSnake/src/New_Game.cpp
+../include/User.hpp
+/home/mahdi/Desktop/EscapeFromSnake/include/User.hpp
+../include/New_Game.hpp
+/home/mahdi/Desktop/EscapeFromSnake/include/New_Game.hpp
+../include/Snake.hpp
+/home/mahdi/Desktop/EscapeFromSnake/include/Snake.hpp
+SFML/Graphics.hpp
+-
+SFML/Window.hpp
+-
+SFML/System.hpp
+-
+

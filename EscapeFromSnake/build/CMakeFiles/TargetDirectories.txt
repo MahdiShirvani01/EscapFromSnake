@@ -1,0 +1,3 @@
+/home/mahdi/Desktop/EscapeFromSnake/build/CMakeFiles/rebuild_cache.dir
+/home/mahdi/Desktop/EscapeFromSnake/build/CMakeFiles/edit_cache.dir
+/home/mahdi/Desktop/EscapeFromSnake/build/CMakeFiles/app.dir
