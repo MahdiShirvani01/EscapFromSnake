@@ -18,7 +18,7 @@ Snake sk;
 void NewGame::fix_menu()
 {
     ///////////////////////////////////// main menu window
-    Menu.create(sf::VideoMode(1000, 500), "Main Menu", sf::Style::Default);
+    Menu.create(sf::VideoMode(1000, 500), "Main Menu", sf::Style::Close);
 
     ///////////////////////////////////// set buttons textur and sprit
     textur_start.loadFromFile("../asserts/start.jpg"); // start
@@ -160,7 +160,7 @@ void NewGame::first_fixing()
             pl.set_location();
         }
     ///////////////////////////////////// game environment window
-    window.create(sf::VideoMode(1000, 500), st, sf::Style::Default);
+    window.create(sf::VideoMode(1000, 500), st, sf::Style::Close);
     
     textur_mouse.loadFromFile("../asserts/mouse.jpg"); // player
     sprit_mouse.setTexture(textur_mouse);
